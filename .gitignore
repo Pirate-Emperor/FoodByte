@@ -1,0 +1,110 @@
+ # User-centric
+ .idea/**/workspace.xml
+ .idea/**/tasks.xml
+ .idea/dictionaries
+
+ # Sensitive or high-churn files
+ .idea/**/dataSources/
+ .idea/**/dataSources.ids
+ .idea/**/dataSources.xml
+ .idea/**/dataSources.local.xml
+ .idea/**/sqlDataSources.xml
+ .idea/**/dynamic.xml
+ .idea/**/uiDesigner.xml
+
+ # Gradle
+ .idea/**/gradle.xml
+ .idea/**/libraries
+
+ # CMake
+ cmake-build-debug/
+
+ # Mongo Explorer plugin
+ .idea/**/mongoSettings.xml
+
+ # File-based project format
+ *.iws
+
+ # Plugin-specific files
+
+ # IntelliJ
+ /out/
+ */.idea/*
+
+ # mpeltonen/sbt-idea plugin
+ .idea_modules/
+
+ # JIRA plugin
+ atlassian-ide-plugin.xml
+
+ # Cursive Clojure plugin
+ .idea/replstate.xml
+
+ # Ruby plugin and RubyMine
+ /.rakeTasks
+
+ # Crashlytics plugin (for Android Studio and IntelliJ)
+ com_crashlytics_export_strings.xml
+ crashlytics.properties
+ crashlytics-build.properties
+ fabric.properties
+
+ # Sonarlint plugin
+ .idea/sonarlint
+
+ # CocoaPods
+ Pods/
+ Podfile.lock
+
+ # Build generated
+ build/
+ DerivedData/
+
+ # Various settings
+ *.pbxuser
+ !default.pbxuser
+ *.mode1v3
+ !default.mode1v3
+ *.mode2v3
+ !default.mode2v3
+ *.perspectivev3
+ !default.perspectivev3
+ xcuserdata/
+
+ # Other
+ *.moved-aside
+ *.xccheckout
+ *.xcscmblueprint
+ *.orig
+ *.log
+ .DS_Store
+
+ # Obj-C/Swift specific
+ *.hmap
+ *.ipa
+ *.dSYM.zip
+ *.dSYM
+
+ # fastlane
+ **/fastlane/report.xml
+ **/fastlane/Preview.html
+ **/fastlane/screenshots
+ **/fastlane/test_output
+ **/fastlane/README.md
+
+ # Playgrounds
+ timeline.xctimeline
+ playground.xcworkspace
+
+ # Swift Package Manager
+ .build/
+ .swiftpm/
+ Package.resolved
+
+ # Bundler
+ Gemfile.lock
+ .bundle/
+ vendor/
+
+ # Configs
+ XcodeProject.config
